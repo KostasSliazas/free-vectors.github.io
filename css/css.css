@@ -48,7 +48,7 @@
 
 @keyframes outs {
   to {
-    transform: translateX(-50%) translateY(-90%) scale(1);
+    transform: translateY(-90%) scale(1);
   }
 }
 
@@ -61,10 +61,10 @@ html,
 body {
   margin: 0;
   color: #777;
-  background: #000;
   font: 1em/1.5 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #000;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 h1,
@@ -75,6 +75,8 @@ h1,
   line-height: 1.5483871em;
   margin-top: 0;
   margin-bottom: 0;
+  text-shadow: 1px 1px 0px rgba(183, 171, 0, 1),4px 2px 0px rgba(183, 171, 0, 1),6px 4px 0px rgba(183, 171, 0, 0.9),9px 6px 0px rgba(183, 171, 0, 0.8),12px 9px 0px rgba(183, 171, 0, 0.7),14px 11px 0px rgba(183, 171, 0, 0.6),17px 13px 0px rgba(183, 171, 0, 0.5),19px 16px 0px rgba(183, 171, 0, 0.4),21px 19px 0px rgba(183, 171, 0, 0.3),24px 21px 0px rgba(183, 171, 0, 0.2);
+  color: #fafafa;
 }
 
 h2,
@@ -105,11 +107,9 @@ a {
   perspective: 400px;
   margin: 0 auto;
   position: relative;
-  font: 2.5em/1 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font: 5em/1 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #555;
   display: block;
-  height: 170px;
-  font-size: 60px;
   overflow: hidden
 }
 
@@ -278,7 +278,7 @@ input[type="checkbox"] {
 }
 
 .bands {
-  font-size: 16px;
+  font-size: 14px;
   height: 100%;
   width: 100%;
   transform: translateY(0) scale(0);
@@ -292,17 +292,29 @@ main {
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
-  height: 100%;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 .center {
-  background: rgb(252, 255, 197);
-  background: radial-gradient(circle, rgb(253, 255, 222) 0%, rgb(212, 204, 155) 10%, rgba(0, 0, 0, 1) 22%);
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(212, 204, 155) 15%, rgba(0, 0, 0, 0)30%);
   min-height: 300px;
   background-repeat: no-repeat;
 }
 
 footer {
-  color: #555;
+  background: radial-gradient(#000 28%, transparent 35%) -1px -1px/14px 14px, radial-gradient(#222 28%, transparent 40%) 0 0/14px 14px, radial-gradient(#000 28%, transparent 35%) -8px -8px/14px 14px, radial-gradient(#222 28%, transparent 40%) 7px -7px/14px 14px #111;
+  height: 120px;
+  width: 100%;
+  border-top: 1px solid #333;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  text-align: right;
+}
+.pad{
+  padding: 0 1em;
+}
+.wrap{
+  position: relative;
+  height: 100%;
 }
