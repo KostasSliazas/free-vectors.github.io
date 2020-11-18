@@ -56,6 +56,7 @@ html,
 .root {
   font-size: 16px;
   line-height: 24px;
+  height: 100%;
 }
 
 body {
@@ -63,7 +64,6 @@ body {
   color: #777;
   font: 1em/1.5 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #000;
-  height: 100vh;
   overflow-x: hidden;
 }
 
@@ -293,23 +293,23 @@ main {
   margin: 0 auto;
   text-align: center;
   padding: 0 1em;
+  height: 100%;
 }
 
 .center {
-  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(212, 204, 155) 15%, rgba(0, 0, 0, 0)30%);
-  min-height: 300px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.46) 0%, rgba(212, 204, 155, 0.29) 30%, rgba(0, 0, 0, 0)70%);
   background-repeat: no-repeat;
+  height: 100%;
+  min-height: 400px;
 }
 
 footer {
   background: radial-gradient(#000 28%, transparent 35%) -1px -1px/14px 14px, radial-gradient(#222 28%, transparent 40%) 0 0/14px 14px, radial-gradient(#000 28%, transparent 35%) -8px -8px/14px 14px, radial-gradient(#222 28%, transparent 40%) 7px -7px/14px 14px #111;
-  height: 120px;
   width: 100%;
   border-top: 1px solid #333;
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
   text-align: right;
+  font-size: 0.75em;
+  height: 120px;
 }
 .pad{
   padding: 0 1em;
