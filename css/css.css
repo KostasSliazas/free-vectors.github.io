@@ -69,8 +69,6 @@ body {
 
 h1,
 .h1 {
-
-
   font-size: 1.9375em;
   line-height: 1.5483871em;
   margin-top: 0;
@@ -91,12 +89,9 @@ h2,
 
 h3,
 .h3 {
-
-
   font-size: 1.25em;
   line-height: 1.2em;
-  margin-top: 1.2em;
-  margin-bottom: 0em;
+  margin: 1.2em 0;
 }
 
 a {
