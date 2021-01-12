@@ -75,16 +75,16 @@ h1,
   margin-bottom: 0;
   text-shadow: 1px 1px 0px rgba(183, 171, 0, 1),4px 2px 0px rgba(183, 171, 0, 1),6px 4px 0px rgba(183, 171, 0, 0.9),9px 6px 0px rgba(183, 171, 0, 0.8),12px 9px 0px rgba(183, 171, 0, 0.7),14px 11px 0px rgba(183, 171, 0, 0.6),17px 13px 0px rgba(183, 171, 0, 0.5),19px 16px 0px rgba(183, 171, 0, 0.4),21px 19px 0px rgba(183, 171, 0, 0.3),24px 21px 0px rgba(183, 171, 0, 0.2);
   color: #fafafa;
+  font-weight: 300;
 }
 
 h2,
 .h2 {
-
-
   font-size: 1.5625em;
   line-height: 1.92em;
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: 300;
 }
 
 h3,
@@ -92,6 +92,7 @@ h3,
   font-size: 1.25em;
   line-height: 1.2em;
   margin: 1.2em 0;
+  font-weight: 300;
 }
 
 a {
