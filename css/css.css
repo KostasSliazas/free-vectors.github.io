@@ -47,8 +47,11 @@
 }
 
 @keyframes outs {
+  50%{
+    transform: translateY(-70%) scale(.4);
+  }
   to {
-    transform: translateY(-90%) scale(1);
+    transform: translate(-30%, -80%) scale(1);
   }
 }
 
@@ -103,7 +106,7 @@ h3 {
 a {
   background: #085656;
   color: #fff;
-  /*! padding: 1em 1.5em; */
+  padding: 1em 1.5em;
   text-decoration: none;
   text-transform: uppercase;
   border: 0;
@@ -281,18 +284,12 @@ input[type="checkbox"] {
   animation: topb 2s 1s forwards
 }
 
-.animation:checked+.box-download {
-  transform: rotateZ(0deg) rotateX(-45deg);
-  animation: 0s ease 0s 1 normal none paused none;
-  animation-play-state: paused
-}
-
 .animation:checked+.box-download .boto {
   animation: scaleshadow 2.5s .5s linear forwards
 }
 
 .animation:checked+.box-download .bands {
-  animation: 3s 1s outs forwards;
+  animation: 1s 2s outs forwards;
 }
 
 .backf {
