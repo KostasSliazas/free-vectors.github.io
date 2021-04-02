@@ -42,7 +42,7 @@
 
 @keyframes rotate {
   to {
-    transform: rotateX(-45deg) rotateY(-305deg)
+    transform: rotateX(-15deg) rotateY(-305deg)
   }
 }
 
@@ -157,7 +157,7 @@ a:hover {
   width: 1em;
   margin: 1em auto;
   transform-style: preserve-3d;
-  transform: rotateX(-45deg) rotateY(55deg);
+  transform: rotateX(-15deg) rotateY(55deg);
   text-align: center;
   -webkit-tap-highlight-color: transparent;
   user-select: none;
@@ -289,7 +289,7 @@ input[type="checkbox"] {
 }
 
 .animation:checked+.box-download .bands {
-  animation: 1s 2s outs forwards;
+  animation: 1s 1.5s outs forwards;
 }
 
 .backf {
