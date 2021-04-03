@@ -65,9 +65,8 @@ html,
 body {
   font: 16px/1.5 'Kodchasan', sans-serif;
   color: #555;
-  background: #f7f7f7;
+  background: #f3f3fc;
   overflow-x: hidden;
-  background: #fff;
   margin: 0;
 }
 
@@ -94,6 +93,7 @@ h1 {
   font-size: 1.5em;
   line-height: 1;
   text-align: center;
+  color: #fff;
 }
 
 h2,
