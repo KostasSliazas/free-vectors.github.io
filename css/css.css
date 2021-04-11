@@ -147,7 +147,9 @@ a:hover {
   display: block;
   position: relative
 }
-
+.boxwrp span.text {
+  font-size: 16px;
+}
 .boxwrp label {
   display: none;
 }
@@ -171,7 +173,7 @@ a:hover {
 }
 
 .back {
-  transform: translateZ(-.5em)
+  transform: scaleX(-1) translateZ(-.5em)
 }
 
 .left {
