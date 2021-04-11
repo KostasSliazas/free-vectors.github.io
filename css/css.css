@@ -47,9 +47,10 @@
 }
 
 @keyframes outs {
-  50%{
+  50% {
     transform: translateY(-70%) scale(.4);
   }
+
   to {
     transform: translate(-30%, -80%) scale(1);
   }
@@ -344,4 +345,10 @@ footer {
 .wrap {
   position: relative;
   height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .blocks {
+    display: block;
+  }
 }
