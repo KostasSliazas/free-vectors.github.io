@@ -65,8 +65,8 @@ html,
 
 body {
   font: 16px/1.5 'Kodchasan', sans-serif;
-  color: #555;
-  background: #f3f3fc;
+  color: #EDFCFF;
+  background: #023741;
   overflow-x: hidden;
   margin: 0;
 }
@@ -88,7 +88,7 @@ p {
 }
 
 h1 {
-  text-shadow: rgb(255, 255, 255) -1px -1px 0px, rgb(255, 255, 255) -2px -2px 0px, rgb(255, 255, 255) -3px -3px 0px, rgb(255, 255, 255) -4px -4px 0px, rgb(255, 255, 255) -5px -5px 0px, rgb(255, 255, 255) -6px -6px 0px, rgb(255, 255, 255) -7px -7px 0px, rgb(255, 255, 255) -8px -8px 0px, rgb(255, 255, 255) -9px -9px 0px, rgb(255, 255, 255) -10px -10px 0px, rgb(255, 255, 255) -11px -11px 0px, rgb(255, 255, 255) -12px -12px 0px, rgb(255, 255, 255) -13px -13px 0px, rgb(255, 255, 255) -14px -14px 0px, rgb(255, 255, 255) -15px -15px 0px, rgb(255, 255, 255) -16px -16px 0px, rgb(255, 255, 255) -17px -17px 0px, rgb(255, 255, 255) -18px -18px 0px, rgb(255, 255, 255) -19px -19px 0px, rgb(255, 255, 255) -20px -20px 0px, rgb(255, 255, 255) -21px -21px 0px, rgb(255, 255, 255) -22px -22px 0px, rgb(255, 255, 255) -23px -23px 0px, rgb(255, 255, 255) -24px -24px 0px, rgb(255, 255, 255) -25px -25px 0px, rgb(255, 255, 255) -26px -26px 0px, rgb(255, 255, 255) -27px -27px 0px, rgb(255, 255, 255) -28px -28px 0px, rgb(255, 255, 255) -29px -29px 0px, rgb(255, 255, 255) -30px -30px 0px, rgb(255, 255, 255) -31px -31px 0px, rgb(255, 255, 255) -32px -32px 0px, rgb(255, 255, 255) -33px -33px 0px, rgb(255, 255, 255) -34px -34px 0px, rgb(255, 255, 255) -35px -35px 0px, rgb(255, 255, 255) -36px -36px 0px, rgb(255, 255, 255) -37px -37px 0px, rgb(255, 255, 255) -38px -38px 0px, rgb(255, 255, 255) -39px -39px 0px, rgb(255, 255, 255) -40px -40px 0px, rgb(255, 255, 255) -41px -41px 0px, rgb(255, 255, 255) -42px -42px 0px, rgb(255, 255, 255) -43px -43px 0px, rgb(255, 255, 255) -44px -44px 0px, rgb(255, 255, 255) -45px -45px 0px, rgb(255, 255, 255) -46px -46px 0px, rgb(255, 255, 255) -47px -47px 0px, rgb(255, 255, 255) -48px -48px 0px, rgb(255, 255, 255) -49px -49px 0px, rgb(255, 255, 255) -50px -50px 0px, rgb(255, 255, 255) -51px -51px 0px, rgb(255, 255, 255) -52px -52px 0px, rgb(255, 255, 255) -53px -53px 0px, rgb(255, 255, 255) -54px -54px 0px, rgb(255, 255, 255) -55px -55px 0px, rgb(255, 255, 255) -56px -56px 0px, rgb(255, 255, 255) -57px -57px 0px, rgb(255, 255, 255) -58px -58px 0px, rgb(255, 255, 255) -59px -59px 0px, rgb(255, 255, 255) -60px -60px 0px, rgb(255, 255, 255) -61px -61px 0px, rgb(255, 255, 255) -62px -62px 0px, rgb(255, 255, 255) -63px -63px 0px, rgb(255, 255, 255) -64px -64px 0px, rgb(255, 255, 255) -65px -65px 0px, rgb(255, 255, 255) -66px -66px 0px, rgb(255, 255, 255) -67px -67px 0px, rgb(255, 255, 255) -68px -68px 0px, rgb(255, 255, 255) -69px -69px 0px, rgba(255, 255, 255, 0.9) -70px -70px 0px, rgba(255, 255, 255, 0.8) -71px -71px 0px, rgba(255, 255, 255, 0.7) -72px -72px 0px, rgba(255, 255, 255, 0.6) -73px -73px 0px, rgba(255, 255, 255, 0.5) -74px -74px 0px, rgba(255, 255, 255, 0.4) -75px -75px 0px, rgba(255, 255, 255, 0.3) -76px -76px 0px, rgba(255, 255, 255, 0.2) -77px -77px 0px;
+ text-shadow: rgb(1, 32, 38) -1px -1px 0px, rgb(1, 32, 38) -2px -2px 0px, rgb(1, 32, 38) -3px -3px 0px, rgb(1, 32, 38) -4px -4px 0px, rgb(1, 32, 38) -5px -5px 0px, rgb(1, 32, 38) -6px -6px 0px, rgb(1, 32, 38) -7px -7px 0px, rgb(1, 32, 38) -8px -8px 0px, rgb(1, 32, 38) -9px -9px 0px, rgb(1, 32, 38) -10px -10px 0px, rgb(1, 32, 38) -11px -11px 0px, rgb(1, 32, 38) -12px -12px 0px, rgb(1, 32, 38) -13px -13px 0px, rgb(1, 32, 38) -14px -14px 0px, rgb(1, 32, 38) -15px -15px 0px, rgb(1, 32, 38) -16px -16px 0px, rgb(1, 32, 38) -17px -17px 0px, rgb(1, 32, 38) -18px -18px 0px, rgb(1, 32, 38) -19px -19px 0px, rgb(1, 32, 38) -20px -20px 0px, rgb(1, 32, 38) -21px -21px 0px, rgb(1, 32, 38) -22px -22px 0px, rgb(1, 32, 38) -23px -23px 0px, rgb(1, 32, 38) -24px -24px 0px, rgb(1, 32, 38) -25px -25px 0px, rgb(1, 32, 38) -26px -26px 0px, rgb(1, 32, 38) -27px -27px 0px, rgb(1, 32, 38) -28px -28px 0px, rgb(1, 32, 38) -29px -29px 0px, rgb(1, 32, 38) -30px -30px 0px, rgb(1, 32, 38) -31px -31px 0px, rgb(1, 32, 38) -32px -32px 0px, rgb(1, 32, 38) -33px -33px 0px, rgb(1, 32, 38) -34px -34px 0px, rgb(1, 32, 38) -35px -35px 0px, rgb(1, 32, 38) -36px -36px 0px, rgb(1, 32, 38) -37px -37px 0px, rgb(1, 32, 38) -38px -38px 0px, rgb(1, 32, 38) -39px -39px 0px, rgb(1, 32, 38) -40px -40px 0px, rgb(1, 32, 38) -41px -41px 0px, rgb(1, 32, 38) -42px -42px 0px, rgb(1, 32, 38) -43px -43px 0px, rgb(1, 32, 38) -44px -44px 0px, rgb(1, 32, 38) -45px -45px 0px, rgb(1, 32, 38) -46px -46px 0px, rgb(1, 32, 38) -47px -47px 0px, rgb(1, 32, 38) -48px -48px 0px, rgb(1, 32, 38) -49px -49px 0px, rgb(1, 32, 38) -50px -50px 0px, rgb(1, 32, 38) -51px -51px 0px, rgb(1, 32, 38) -52px -52px 0px, rgb(1, 32, 38) -53px -53px 0px, rgb(1, 32, 38) -54px -54px 0px, rgb(1, 32, 38) -55px -55px 0px, rgb(1, 32, 38) -56px -56px 0px, rgb(1, 32, 38) -57px -57px 0px, rgb(1, 32, 38) -58px -58px 0px, rgb(1, 32, 38) -59px -59px 0px, rgb(1, 32, 38) -60px -60px 0px, rgb(1, 32, 38) -61px -61px 0px, rgb(1, 32, 38) -62px -62px 0px, rgb(1, 32, 38) -63px -63px 0px, rgb(1, 32, 38) -64px -64px 0px, rgb(1, 32, 38) -65px -65px 0px, rgb(1, 32, 38) -66px -66px 0px, rgb(1, 32, 38) -67px -67px 0px, rgb(1, 32, 38) -68px -68px 0px, rgb(1, 32, 38) -69px -69px 0px, rgba(1, 32, 38, 0.9) -70px -70px 0px, rgba(1, 32, 38, 0.8) -71px -71px 0px, rgba(1, 32, 38, 0.7) -72px -72px 0px, rgba(1, 32, 38, 0.6) -73px -73px 0px, rgba(1, 32, 38, 0.5) -74px -74px 0px, rgba(1, 32, 38, 0.4) -75px -75px 0px, rgba(1, 32, 38, 0.3) -76px -76px 0px, rgba(1, 32, 38, 0.2) -77px -77px 0px;
   margin-top: 1em;
   margin-bottom: 0;
   font-size: 1.5em;
@@ -104,7 +104,7 @@ h3 {
 }
 
 a {
-  background: #085656;
+  background: #012026;
   color: #fff;
   padding: 1em 1.5em;
   text-decoration: none;
@@ -120,7 +120,7 @@ a {
 }
 
 a:visited {
-  background-color: #085656;
+  background-color: #012026;
 }
 
 a:active {
@@ -128,7 +128,7 @@ a:active {
 }
 
 a:hover {
-  background: #176C6C;
+  background: #074F5D;
 }
 
 .boxwrp {
@@ -330,8 +330,11 @@ main {
 }
 
 .bg {
-  background: radial-gradient(#fff 28%, transparent 35%) -1px -1px/14px 14px, radial-gradient(#111 28%, transparent 40%) 0 0/14px 14px, radial-gradient(#fff 28%, transparent 35%) -8px -8px/14px 14px, radial-gradient(#111 28%, transparent 40%) 7px -7px/14px 14px #eee;
-  background-blend-mode: soft-light;
+  background: 
+   radial-gradient(#222 28%, transparent 35%) -1px -1px/14px 14px,
+   radial-gradient(#111 28%, transparent 40%) 0 0/14px 14px, 
+   radial-gradient(#222 28%, transparent 35%) -8px -8px/14px 14px, 
+   radial-gradient(#111 28%, transparent 40%) 7px -7px/14px 14px #000;
 }
 
 footer {
