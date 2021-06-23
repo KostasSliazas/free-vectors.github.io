@@ -272,27 +272,27 @@ input[type="checkbox"] {
   left: 0;
 }
 
-.animation:checked+.box-download .topl {
+.animation:checked~.box-download .topl {
   animation: topl 2s forwards
 }
 
-.animation:checked+.box-download .topr {
+.animation:checked~.box-download .topr {
   animation: topr 2s forwards
 }
 
-.animation:checked+.box-download .topf {
+.animation:checked~.box-download .topf {
   animation: topf 2s 1s forwards
 }
 
-.animation:checked+.box-download .topb {
+.animation:checked~.box-download .topb {
   animation: topb 2s 1s forwards
 }
 
-.animation:checked+.box-download .boto {
+.animation:checked~.box-download .boto {
   animation: scaleshadow 2.5s .5s linear forwards
 }
 
-.animation:checked+.box-download .bands {
+.animation:checked~.box-download .bands {
   animation: 1s 1.5s outs forwards;
 }
 
