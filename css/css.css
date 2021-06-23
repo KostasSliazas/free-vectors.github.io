@@ -135,6 +135,7 @@ a:hover {
   perspective: 400px;
   margin: 0 auto;
   position: relative;
+  color: #222;
   font: 5em/1 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: block;
   overflow: hidden
